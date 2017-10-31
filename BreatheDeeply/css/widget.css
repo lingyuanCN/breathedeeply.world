@@ -1,0 +1,61 @@
+#widget
+{
+    border:2px solid;
+    border-color: orange;
+    border-radius:15px;
+    border-style: ridge none none none;
+    box-shadow: 10px -7px 10px 4px #dddddd;
+    min-height: 270px;
+    background: #eeeeee;
+    margin: 20px auto;
+}
+
+#widget .header
+{
+    height: 40px;
+    background: #f9ac3a;
+    border-radius: 15px 15px 0 0;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#widget .current-weather-icon{
+    display: inline-block;
+    padding: 10px auto;
+    height: 80px;
+}
+
+#widget .current-weather-temperature{
+    display: inline-block;
+    align-content: center;
+    font-size: 50px;
+    padding: 10px auto;
+    height: 80px;
+}
+
+#widget #current-weather-icon::before{
+    font-size: 65px;
+}
+
+#widget table .forecast::before{
+    font-size: 25px;
+}
+
+#widget .forecast-10 td{
+    width: 10%;
+}
+
+table .forecast-10{
+    padding: 10px;
+}
+
+#widget .weather-description{
+    font-size:24px;
+    font-weight:bold;
+}
+
+#widget .wind{
+    font-size:14px;
+    font-weight:bold;
+}

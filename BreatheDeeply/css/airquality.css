@@ -1,0 +1,163 @@
+.side-bar .list-group-item {
+  border: 0;
+  border-radius: 3px;
+  margin-bottom: 5px;
+}
+
+.side-bar .list-group-item.active {
+  background-color: #004681;
+}
+
+.side-bar .favor-list .item.active {
+  background-color: #004681;
+  color: #fff;
+}
+
+.side-bar .favor-list .item {
+  border: 0;
+  border-radius: 3px;
+  margin-bottom: 5px;
+}
+
+.user-info img {
+  display: block;
+  max-width: 50%;
+  border-radius: 3px;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+
+.user-info .user-info-name {
+    color: #5a73a1;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+#menu-checkbox{
+  display: none;
+}
+
+#menu-checkbox:checked ~ .favor-list {
+  display: block;
+}
+
+#menu-toggle {
+  top: 10px;
+  right: 80px;
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.area {
+    font-size: 25px;
+    border-bottom: 2px solid #999;
+}
+
+.favor-list-lab {
+  margin-left: 15px;
+}
+
+.favor-list a {
+  display: block; /*占母元素整宽*/
+  padding: 10px;
+  padding-left: 15px;
+  color: #000 ;
+  text-decoration: none;
+}
+
+.favor-list a:hover {
+  border: 0;
+  border-radius: 3px;
+  margin-bottom: 5px;
+  background-color: #004681;
+  color: #fff;
+}
+
+.favor-list {
+  display: none;
+}
+
+.title::before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 5px;
+  height: 40px;
+  background: #000;
+  margin-right: 10px;
+  color: red;
+}
+
+.function-group .title {
+  font-size: 30px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+
+}
+
+.function-group .item {
+  padding: 5px 15px;
+}
+
+.function-group .card {
+  height: 260px;
+  background: #004681;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 2px 2px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 2px rgba(0,0,0,0.1);
+  color: #000;
+}
+
+.function-group .card:hover {
+  background: #008AFF;
+}
+
+.function-group .function-name {
+  display: block;
+  text-align:center;
+  font-size: 26px;
+  color: white;
+  padding: 95px 0;
+}
+
+.panel-title {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.small{
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.parameter_list{
+  font-size: 20px;
+}
+
+.container-small {
+  max-width: 500;
+}
+
+.combobox {
+  margin-bottom: 20px;
+  margin-right: 10px;
+  margin-left: 15px;
+  width: 400px;
+}
+
+.parameter-title {
+  margin-top: -10px;
+  font-size: 18px;
+  color: #004681;
+}
+
+.updateinfo {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+#barChartParnet {
+  width: 10%;
+}

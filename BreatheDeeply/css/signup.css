@@ -1,0 +1,94 @@
+.foot-page{
+    margin-top: 80px;
+    background:white;
+}
+.bot-page{
+    text-align:center;
+}
+.location-foot{
+    text-align: center;
+}
+img{
+    display: block;
+    max-width: 100%;
+    border-radius: 3px;
+}
+a{
+   text-decoration: none;
+}
+
+.top-bar{
+    padding-left: 3%;
+    background: whitesmoke;
+}
+
+.top-t a{
+    height: 70px;
+    font-size: 23px;
+
+}
+.person-bo{
+    border-right: solid 3px #3661a2 ;
+    height: 70px;
+    font-size: 22px;
+
+}
+.dropdown-toggle{
+    height: 70px;
+    font-size: 22px;
+}
+
+.hh{
+    color: white;
+    margin-top: 10px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.navbar-right{
+    padding-right: 50px;
+}
+
+.navbar-brand{
+    background-image:url(../img/logo.png);
+    width: 150px;
+    background-size: 90%;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+
+
+#toggle-checkbox:checked ~ div{
+    display: block !important;
+}
+#toggle-label{
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    font-size: 16px;
+    display: none;
+}
+.glyphicon-menu-hamburger{
+    top:10px;
+    font-size: 20px;
+    color: rgba(104,169,230,1);
+}
+
+
+.Login1{
+    color: #004681;
+}
+
+.user-photo{
+    display: inline-block;
+}
+.user-photo img{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+}
+.container-small{
+    max-width: 700px;
+}

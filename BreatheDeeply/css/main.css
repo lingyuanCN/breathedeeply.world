@@ -1,0 +1,48 @@
+*
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.clearf:after,
+.clearf:before {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+
+.container-small {
+  max-width: 500px;
+}
+
+.navbar-brand{
+  background-image:url(../img/logo.png);
+  width: 150px;
+  background-size: 90%;
+  background-repeat:no-repeat;
+  background-position:center;
+}
+
+.footer {
+  background: #004681;
+  background-repeat:round;
+  background-size: 100% 100%;
+  color: #444444;
+  font-size: 11px;
+  padding: 20px;
+  text-shadow: 3px 3px 3px #000000;
+  text-align: center;
+  margin: auto;
+}
+
+.fixed-bottom {
+  position: fixed;
+  bottom: 0;
+  width:100%;
+}

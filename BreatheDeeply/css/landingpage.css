@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.intro {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background: url('../picture/landingpage.jpg') no-repeat 50% 50%;
+    display: table;
+    top: 0;
+    background-size: cover;
+}
+
+.inner {
+    display: table-cell;
+    padding-top: 5%;
+    width: 100%;
+    max-width: none;
+}
+
+.title {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.title h1 {
+    font-family: 'Raleway', sans-serif;
+    color: #f9f3f4;
+    text-shadow: 0 0 300px #000;
+    font-size: 500%;
+}
+
+.btn {
+    border-radius: 9px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 135%;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: solid #036A81 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.btn:hover {
+    color: #fff;
+    border: solid #fff 3px;
+}
+
+
+/*p{*/
+
+
+/*font-size: 300%;*/
+
+
+/*line-height: 600%;*/
+
+
+/*text-align: justify;*/
+
+
+/*margin: 3%;*/
+
+
+/*font-family: sans-serif;*/
+
+
+/*}*/
+
+.arrow {
+    border: 9px solid transparent;
+    border-bottom-color: #3DA0DB;
+    width: 0;
+    height: 0;
+    top: 0;
+}
+
+.stick {
+    width: 8px;
+    height: 14px;
+    border-radius: 1px;
+    background-color: #3DA0DB;
+    top: 15px;
+}
+
+#back-top div {
+    position: absolute;
+    margin: auto;
+    right: 0;
+    left: 0;
+}
+
+#back-top {
+    background-color: #f6fafb;
+    height: 38px;
+    width: 38px;
+    border-radius: 3px;
+    display: block;
+    cursor: pointer;
+    position: fixed;
+    right: 50px;
+    bottom: 100px;
+    display: none;
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+}
+
+#what-is {
+    padding: 50px 0 30px 0;
+    text-align: center;
+}
+
+#what-is p {
+    font-size: 20px;
+}
+
+#showcase1 {
+    padding: 50px 0 40px 0;
+}
+
+#showcase2 {
+    padding: 50px 0 40px 0;
+}
+
+#showcase3 {
+    padding: 50px 0 40px 0;
+}
+
+#showcase1 img {
+    width: 90%;
+    margin-left: 15px;
+}
+
+.showcase1-right {
+    margin-top: 30px;
+}
+
+#showcase2 img {
+    width: 90%;
+    margin-left: 30px;
+}
+
+.showcase2-left {
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+#showcase3 img {
+    width: 90%;
+    margin-left: 15px;
+}
+
+.showcase3-right {
+    margin-top: 30px;
+}
+
+li {
+    list-style: none;
+    margin: 10px 0 10px 0;
+}
+
+ul {
+    padding-top: 35px;
+}
+
+.bot1 {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.bot-line {
+    margin-bottom: 0;
+}
+
+.foot-line {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+footer {
+    background-color: #f5f5f5;
+    /*background: url("../picture/brady-bellini-191086.jpg")no-repeat 50% 50%;*/
+    /*background-size: cover;*/
+}
+
+.foot-project {
+    margin-top: 15px;
+}
+
+.foot-project1 {
+    font-size: 25px;
+}
+
+@media screen and (max-width: 768px) {
+    .content h1 {
+        font-size: 250%;
+    }
+    .btn {
+        font-size: 110%;
+        padding: 7px 15px;
+    }
+    p {
+        font-size: 100%;
+    }
+}

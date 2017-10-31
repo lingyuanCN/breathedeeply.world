@@ -1,0 +1,28 @@
+.footer {
+    background: #004681;
+    background-repeat:round;
+    background-size: '100% 100%';
+    color: #eee;
+    font-size: 11px;
+    padding: 20px;
+    text-shadow: 3px 3px 3px #000000;
+    text-align: center;
+}
+
+ul.unstyled {
+    list-style: none;
+    padding: 0;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.text {
+  font-size: 18px;
+}
+
+.question {
+  font-size: 20px;
+  color: green;
+}

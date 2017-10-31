@@ -1,0 +1,136 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: background 500ms;
+    -o-transition: background 500ms;
+    transition: background 500ms;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.clearf:after,
+.clearf:before {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.navbar-brand {
+    background-image:url(../img/logo.png);
+    width: 150px;
+    background-size: 90%;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+.side-bar .list-group-item {
+    border: 0;
+    border-radius: 3px;
+    margin-bottom: 5px;
+}
+
+.side-bar .list-group-item.active {
+    background-color: #004681;
+}
+
+.user-info img {
+    display: block;
+    max-width: 50%;
+    border-radius: 3px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+.user-info .user-info-name {
+    color: #5a73a1;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+
+#menu-checkbox{
+    display: none;
+}
+
+#menu-checkbox:checked ~ .favorite-list {
+    display: block;
+}
+
+#menu-toggle {
+    top: 10px;
+    right: 80px;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.favorite-list-lab {
+    margin-left: 15px;
+}
+
+.favorite-list a {
+    display: block; /*占母元素整宽*/
+    padding: 10px;
+    padding-left: 15px;
+    color: #000 ;
+    text-decoration: none;
+}
+
+.favorite-list a:hover {
+    border: 0;
+    border-radius: 3px;
+    margin-bottom: 5px;
+    background-color: #004681;
+    color: #fff;
+}
+
+
+.favorite-list {
+    display: none;
+}
+
+.function-group .title::before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 5px;
+    height: 40px;
+    background: #000;
+    margin-right: 10px;
+    color: red;
+}
+
+.function-group .title {
+    font-size: 30px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+
+}
+
+.function-group .item {
+    padding: 5px 15px;
+}
+
+.function-group .card {
+    height: 260px;
+    background: #004681;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 2px 2px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 2px rgba(0,0,0,0.1);
+    color: #000;
+}
+
+.function-group .card:hover {
+    background: #008AFF;
+}
+
+.function-group .function-name {
+    display: block;
+    text-align:center;
+    font-size: 26px;
+    color: white;
+    padding: 95px 0;
+}
